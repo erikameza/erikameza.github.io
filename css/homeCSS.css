@@ -25,3 +25,42 @@ nav li a:hover {
     background-color: #111;
 }
 
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 0;
+    display: block;
+}
+
+li a:hover {
+    color: #000;
+}
