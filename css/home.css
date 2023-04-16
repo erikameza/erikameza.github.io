@@ -1,0 +1,24 @@
+#home.headings{
+    text-align: center;
+}
+h1 h2{
+    text-align: center;
+}
+p {
+    display: inline-block;
+    line-height: 1;
+    background-color: #818a91;
+    font-size: 15px;
+    padding: 12px 24px;
+    text-align: center;
+    opacity: 90%;
+}
+body.element-button body.headings{
+    align-content: center;
+
+}
+footer{
+    margin-bottom: auto;
+    bottom: 0;
+    width: 100%;
+}

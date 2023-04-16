@@ -4,53 +4,70 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <style> body {
-        background-image: url("photos/aerialViewofCity.png");
-        background-size: cover;
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/navBar.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <style>
+        body {
+            background-image: url("photos/aerialView3.jpg");
+            background-size: cover;
+            background-blend-mode: darken;
     }
     </style>
 
 </head>
+
+<div class="navbar">
+    <nav>
+        <a href="home.html" class="logo">
+            <img src="photos/CFRLogoFull.png" alt="Logo">
+        </a>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="agents.html">Agents</a></li>
+
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Buy/Sell</a>
+                <div class="dropdown-content">
+                    <a href="buy.html">Buy</a>
+                    <a href="sell.html">Sell</a>
+                </div>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
 <body>
-<nav>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="agents.html">Agents</a></li>
-        <li><a href="buysell.html">Buy/Sell</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-<header>
+<div class="headings">
+<h1>Finding Your Dream Home Starts Here</h1>
+<!--<h2>Search with Confidence Knowing Your Local Agent has the Latest Listings</h2>-->
+</div>
+
+<div class="element-button">
     <p>
-        Welcome to California First Realty, your trusted partner for all your real estate needs in California.
-        Our firm has been serving the California community for several years, providing exceptional real estate services
-        to buyers and sellers alike. Our team of experienced and knowledgeable real estate professionals has a deep understanding
-        of the California real estate market, enabling us to offer you expert guidance and support throughout your real estate journey.
-
-        At California First Realty, we are committed to providing our clients with personalized attention and excellent
-        customer service. We understand that buying or selling a property can be a complex and overwhelming process, which is why we
-        make it our priority to ensure that you feel comfortable and confident every step of the way. Our team is dedicated to helping
-        you achieve your real estate goals, whether you are a first-time homebuyer or a seasoned investor.
-
-        Our comprehensive services cover all aspects of the real estate industry, including residential and commercial sales, property
-        management, and real estate investments. Our team has a wealth of experience in these areas, and we are passionate about helping our
-        clients make informed decisions that are in their best interests.
-
-        As a leading California real estate firm, we are proud to offer our clients access to the latest technology and innovative tools,
-        allowing us to provide the highest level of service possible. Our commitment to excellence and integrity has earned us a reputation
-        as a trusted and reliable partner in the California real estate industry.
-
-        Whether you are buying or selling a property in California, our team at California First Realty is here to help. Contact us today
-        to schedule a consultation and let us help you achieve your real estate goals.
+        "First Time Buyers"
+        <br>
+        "Residential Sales"
+        <br>
+        "Multi-Family Sales"
+        <br>
+        "Commercial Sales"
+        <br>
+        "Vacant Land"
+        <br>
+        "Investments"
     </p>
-</header>
+</div>
+</body>
+
+
 
 <footer>
-
     <div class="row">
         <div class="column">
-            <img src="photos/CFRLogo1.png">
+            <img src="photos/CFRLogoFull.png">
 
         </div>
         <div class="column">
@@ -65,8 +82,9 @@
         <div class="column">
             <h3></h3>
             <ul>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
+                <li><a href="https://www.facebook.com/calfirstrealty/">Follow us on facebook</a></li>
+                <img src="photos/EHOlogo.png" width="100" height="100">
+<!--                <li><a href="#">Link 3</a></li>-->
                 <li>&copy; California First Realty</li>
 
             </ul>
@@ -75,5 +93,4 @@
 </footer>
 
 
-</body>
 </html>

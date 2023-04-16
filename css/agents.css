@@ -1,0 +1,20 @@
+/**/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    width: auto;
+    height: 300px;
+}
+
+.grid-item p, h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}

@@ -3,27 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Us</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-<!--    <link rel="stylesheet" type="text/css" href="css/contactCSS.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/navBar.css" />
+    <link rel="stylesheet" type="text/css" href="css/contactCSS.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="css/contactCSS.css" />
     <style> body {
-        background-image: url("photos/phone.jpg");
+        background-image: url("photos/aerialView3.jpg");
         background-size: cover;
     }
     </style>
 </head>
 <body>
+<div class="navbar">
+    <nav>
+        <a href="home.html" class="logo">
+            <img src="photos/CFRLogoFull.png" alt="Logo">
+        </a>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="agents.html">Agents</a></li>
 
-<nav>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="agents.html">Agents</a></li>
-        <li><a href="buysell.html">Buy/Sell</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Buy/Sell</a>
+                <div class="dropdown-content">
+                    <a href="buy.html">Buy</a>
+                    <a href="sell.html">Sell</a>
+                </div>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
 
 
+<div class="contactUs">
 <h1>Contact Us</h1>
 <form action="#" method="POST">
     <label for="fname">First Name:</label><br>
@@ -34,9 +48,48 @@
     <input type="email" id="email" name="email"><br>
     <label for="phone">Phone:</label><br>
     <input type="tel" id="phone" name="phone"><br>
+    <label for="subject">Subject:</label>
+    <select id="subject" name="subject" required>
+        <option value="">Choose a subject</option>
+        <option value="Purchase">Purchase a home</option>
+        <option value="Listing">Sell your home</option>
+        <option value="join">Join the team</option>
+        <option value="other">Other</option>
+    </select>
+
     <label for="message">Message:</label><br>
     <textarea id="message" name="message"></textarea><br>
     <input type="submit" value="Submit">
 </form>
+</div>
+
 </body>
+
+<footer>
+    <div class="row">
+        <div class="column">
+            <img src="photos/CFRLogoFull.png">
+
+        </div>
+        <div class="column">
+            <h3> </h3>
+            <ul>
+                <li>525 W Holt Blvd</li>
+                <li>Ontario, CA 91761</li>
+                <li>(909)988-6888</li>
+                <li>cfr@calfirstrealty.net</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3></h3>
+            <ul>
+                <li><a href="https://www.facebook.com/calfirstrealty/">Follow us on facebook</a></li>
+                <img src="photos/EHOlogo.png" width="100" height="100">
+                <!--                <li><a href="#">Link 3</a></li>-->
+                <li>&copy; California First Realty</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
 </html>
