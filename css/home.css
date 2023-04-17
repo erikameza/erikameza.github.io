@@ -1,24 +1,114 @@
 #home.headings{
     text-align: center;
 }
-h1 h2{
+.h1 .h2 {
     text-align: center;
 }
 p {
     display: inline-block;
     line-height: 1;
-    background-color: #818a91;
-    font-size: 15px;
+    /*background-color: #818a91;*/
+    font-size: 20px;
     padding: 12px 24px;
     text-align: center;
     opacity: 90%;
+    align-content: space-evenly;
+    /*padding: 70px;*/
 }
-body.element-button body.headings{
+body.element body.headings{
     align-content: center;
+
+}
+/*footer{*/
+/*    margin-bottom: auto;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
+.element{
+    position: relative;
+    text-align: center;
+    color: black;
+    /*background-color: white;*/
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 
 }
 footer{
     margin-bottom: auto;
-    bottom: 0;
-    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+}
+
+.text {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+/*.testimonial-grid {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(3, 1fr);*/
+/*    grid-gap: 20px;*/
+/*    margin-top: 50px;*/
+/*}*/
+
+/*.testimonial {*/
+/*    background-color: #f2f2f2;*/
+/*    border-radius: 5px;*/
+/*    padding: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.testimonial p:first-child {*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.testimonial-author {*/
+/*    margin-top: 20px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+.text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
 }

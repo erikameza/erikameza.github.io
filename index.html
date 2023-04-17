@@ -2,37 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome To California First Realty</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>California First Realty</title>
+    <!--    <link rel="stylesheet" type="text/css" href="css/main.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/navBar.css" />
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
     <style>
         body {
-            background-image: url("photos/aerialView3.jpg");
+            background-image: url("photos/whiteBackground.jpg");
             background-size: cover;
+            /*background-blend-mode: darken;*/
+            /*background-color:lightgray;*/
         }
     </style>
 
 </head>
-<body>
+
 <div class="navbar">
     <nav>
-        <a href="/" class="logo">
+        <a href="home.html" class="logo">
             <img src="photos/CFRLogoFull.png" alt="Logo">
-        </a>    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="agents.html">Agents</a></li>
-        <li><a href="buysell.html">Buy/Sell</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+        </a>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="agents.html">Agents</a></li>
+
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Buy/Sell</a>
+                <div class="dropdown-content">
+                    <a href="buy.html">Buy</a>
+                    <a href="sell.html">Sell</a>
+                </div>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
 </div>
+
+<body>
+<div class="container">
+    <!--    <div class="image">-->
+    <!--&lt;!&ndash;        <img src="photos/handingKeys.jpg" alt="keys" height="400">&ndash;&gt;-->
+    <!--    </div>-->
+    <div class="text">
+        <h1><strong>Finding Your Dream Home Starts Here</strong></h1>
+        <p>
+            First Time Buyers
+            <br>
+            Residential Sales
+            <br>
+            Multi-Family Sales
+            <br>
+            Commercial Sales
+            <br>
+            Vacant Land
+            <br>
+            Investments
+        </p>
+    </div>
+</div>
+</body>
 
 
 
 
 <footer>
-
     <div class="row">
         <div class="column">
             <img src="photos/CFRLogoFull.png">
@@ -50,8 +85,9 @@
         <div class="column">
             <h3></h3>
             <ul>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
+                <li><a href="https://www.facebook.com/calfirstrealty/">Follow us on facebook</a></li>
+                <img src="photos/EHOlogo.png" width="100" height="100">
+                <!--                <li><a href="#">Link 3</a></li>-->
                 <li>&copy; California First Realty</li>
 
             </ul>
@@ -60,5 +96,4 @@
 </footer>
 
 
-</body>
 </html>
